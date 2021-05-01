@@ -3,7 +3,7 @@ package kodlamaIoTrial;
 public class Main {
 
 	public static void main(String[] args) {
-		User user1 = new User(1,"Hakan","Girgin","12345678901","BS2 9QN","hakan@hakan.com","123456","Mr.");
+		
 		
 		Student student1= new Student();
 		student1.setId(2);
@@ -37,12 +37,11 @@ public class Main {
 
 
 		User[] users = {
-				user1,
+				
 				student1,
 				instructor1
 		};
-		UserManager userManager =new UserManager();
-		userManager.add(user1);
+		
 		
 		StudentManager studentManager =new StudentManager();
 		studentManager.registerCourse(student1);
